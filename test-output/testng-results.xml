@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18751" started-at="2019-05-21T06:55:02Z" finished-at="2019-05-21T06:55:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18751" started-at="2019-05-21T06:55:02Z" finished-at="2019-05-21T06:55:21Z">
+      <class name="extentReportsExample.ExtentReportDemo">
+        <test-method status="PASS" signature="createReport()[pri:0, instance:extentReportsExample.ExtentReportDemo@28feb3fa]" name="createReport" is-config="true" duration-ms="125" started-at="2019-05-21T12:25:02Z" finished-at="2019-05-21T12:25:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReport -->
+        <test-method status="PASS" signature="initialiseWebDriver()[pri:0, instance:extentReportsExample.ExtentReportDemo@28feb3fa]" name="initialiseWebDriver" is-config="true" duration-ms="5297" started-at="2019-05-21T12:25:02Z" finished-at="2019-05-21T12:25:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseWebDriver -->
+        <test-method status="FAIL" signature="OrangeHRMcreateNodeTest()[pri:0, instance:extentReportsExample.ExtentReportDemo@28feb3fa]" name="OrangeHRMcreateNodeTest" duration-ms="36" started-at="2019-05-21T12:25:07Z" finished-at="2019-05-21T12:25:08Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at extentReportsExample.ExtentReportDemo.OrangeHRMcreateNodeTest(ExtentReportDemo.java:94)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrangeHRMcreateNodeTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:extentReportsExample.ExtentReportDemo@28feb3fa]" name="tearDown" is-config="true" duration-ms="944" started-at="2019-05-21T12:25:08Z" finished-at="2019-05-21T12:25:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrangeHRMcreateNodeTest status=FAILURE method=ExtentReportDemo.OrangeHRMcreateNodeTest()[pri:0, instance:extentReportsExample.ExtentReportDemo@28feb3fa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialiseWebDriver()[pri:0, instance:extentReportsExample.ExtentReportDemo@28feb3fa]" name="initialiseWebDriver" is-config="true" duration-ms="4457" started-at="2019-05-21T12:25:08Z" finished-at="2019-05-21T12:25:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseWebDriver -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:extentReportsExample.ExtentReportDemo@28feb3fa]" name="loginTest" duration-ms="1568" started-at="2019-05-21T12:25:13Z" finished-at="2019-05-21T12:25:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:extentReportsExample.ExtentReportDemo@28feb3fa]" name="tearDown" is-config="true" duration-ms="591" started-at="2019-05-21T12:25:15Z" finished-at="2019-05-21T12:25:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=ExtentReportDemo.loginTest()[pri:0, instance:extentReportsExample.ExtentReportDemo@28feb3fa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialiseWebDriver()[pri:0, instance:extentReportsExample.ExtentReportDemo@28feb3fa]" name="initialiseWebDriver" is-config="true" duration-ms="4856" started-at="2019-05-21T12:25:15Z" finished-at="2019-05-21T12:25:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseWebDriver -->
+        <test-method status="PASS" signature="verifyLogo()[pri:0, instance:extentReportsExample.ExtentReportDemo@28feb3fa]" name="verifyLogo" duration-ms="54" started-at="2019-05-21T12:25:20Z" finished-at="2019-05-21T12:25:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:extentReportsExample.ExtentReportDemo@28feb3fa]" name="tearDown" is-config="true" duration-ms="578" started-at="2019-05-21T12:25:20Z" finished-at="2019-05-21T12:25:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogo status=SUCCESS method=ExtentReportDemo.verifyLogo()[pri:0, instance:extentReportsExample.ExtentReportDemo@28feb3fa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:extentReportsExample.ExtentReportDemo@28feb3fa]" name="endReport" is-config="true" duration-ms="228" started-at="2019-05-21T12:25:21Z" finished-at="2019-05-21T12:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- extentReportsExample.ExtentReportDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
